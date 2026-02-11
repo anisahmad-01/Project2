@@ -1,3 +1,5 @@
+//Task 1
+
 #include<iostream>
 using namespace std;
 
@@ -13,7 +15,7 @@ public:
 	int getSecond();
 	void displayTime();
 	Time addTime(Time,Time);
-	int numberofDays(Time t1, Time t2);
+	int numberofDays(Time,Time);
 };
 
 void Time::setTime(int hours, int minutes, int seconds) {
